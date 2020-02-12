@@ -8,8 +8,6 @@ Package.onUse(function(api) {
     "vulcan:core@1.12.3",
     "vulcan:forms@1.12.3",
     "vulcan:accounts@1.12.3",
-    "lfg-lib",
-    "lfg-contact",
     "vulcan:validation-workflows",
   ]);
 
@@ -19,12 +17,9 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use([
-    "lfg-agenda",
     "vulcan:core@1.12.3",
     "vulcan:forms@1.12.3",
     "vulcan:accounts@1.12.3",
-    "lfg-lib",
-    "lfg-contact",
     "vulcan:validation-workflows",
   ]);
   api.use([

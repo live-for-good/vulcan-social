@@ -38,7 +38,7 @@ The collection name or the collection itself is the only field that is required.
 - buttonName: string. It's if you want to custom the button Name.
 - canUpdate: Can either be a string, an array of group names, or a function. If it’s a function, it’ll be called on the user viewing the document and the document itself, and should return true or false.
 - canRead: Can either be a string, an array of group names, or a function. If it’s a function, it’ll be called on the user viewing the document and the document itself, and should return true or false.
-- fieldSchema : object. to pass al the other properties a schema field can take
+- fieldSchema : object. to pass all the other properties a schema field can take
 
 Any other properties you want to pass to the schema should be given inside a fieldSchema object.
 
@@ -55,7 +55,7 @@ The following props are optionals:
 - ButtonAdd: component
 - ButtonRemove: component
 
-Even if the successCallback is optional, we highly recommend thatto use it to refetch your data.
+Even if the successCallback is optional, we highly recommend that to use it to refetch your data.
 
 ## More
 

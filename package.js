@@ -1,6 +1,8 @@
 Package.describe({
   name: "lfg-social",
   summary: "Live for Good social package",
+  documentation: "README.md",
+  version: "0.0.1",
 });
 
 Package.onUse(function(api) {
